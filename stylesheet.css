@@ -1,14 +1,8 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-
-.header {
+header {
+    margin-top: 90px;
   position: relative;
-  display: table;
   width: 100%;
-  height: 100%;
+  height: 450px;
   background: url("http://mangamotaku.e-monsite.com/medias/images/slide-arcade.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,58 +10,68 @@ html, body {
   background-size: cover;
 }
 
-.logotitle {
-  position: absolute;
-  bottom: 2%;
-  left: 2%;
-  display: flex;
-  align-items: center;
-}
-
-.title {
+header h1 {
   color: white;
-  height: 100%;
-  font-size: 5vw;
+  font-size: 100px;
   font-family: 'Press Start 2P', cursive;
-  color: red;
 }
 
-.logo {
-  width: 100%;
-}
-
-.logotitlemobile {
-  position: absolute;
-  top: 2%;
-}
-
-.logomobile {
-  width: 100%;
-}
-
-.titlemobile {
-  position: absolute;
-  color: white;
-  bottom: 2%;
-  font-size: 25px;
-  font-family: 'Press Start 2P', cursive;
-  color: red;
+.logoFooter {
+  width: 50px;
+    height: 50px;
 }
 
 /* fabien */
 
-.pull-left{
-width:60px;
-padding-left:1em;
-padding-top:5px;
-color:black;
+.pull-left{ /*modif*/
+  width:60px;
+  padding-left:1em;
+  padding-top:5px;
+  color:black;
 }
 .icone{
-width:60px;
-background:white;
-border-radius:50%;
-border:1px solid black;
-margin-left: 70%;
+  width:60px;
+  background:white;
+  border-radius:50%;
+  border:1px solid black;
+  margin-left:100px;
+}
+.aboutUs{
+  color:#B41A23;
+  font-size:1em;
+}
+.aboutUs h1{
+    padding-top:50px;
+    font-size:4em;
+    font-weight:bold;
+    text-align:center;
+
+    animation: test 1s infinite;
+    font-family: 'Press Start 2P', cursive;
+    color: darkred;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+.aboutUs p{
+  color:black;
+  padding-top:50px;
+  width:70%;
+  font-size:1.5em;
+  padding-left:30%;
+  padding-bottom:50px;
+  text-align:justify;
+}
+
+@keyframes test {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 
@@ -147,10 +151,6 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: #C71EE2;
-}
-
-.container {
-  width: 90%;
 }
 
 footer img {
