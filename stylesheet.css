@@ -29,7 +29,7 @@ html, body {
   height: 100%;
   font-size: 5vw;
   font-family: 'Press Start 2P', cursive;
-  color: red;
+  color: white;
 }
 
 .logo {
@@ -57,19 +57,55 @@ html, body {
 /* fabien */
 
 .pull-left{
-width:60px;
-padding-left:1em;
-padding-top:5px;
-color:black;
+  width:60px;
+  padding-left:1em;
+  padding-top:5px;
+  color:black;
 }
 .icone{
-width:60px;
-background:white;
-border-radius:50%;
-border:1px solid black;
-margin-left: 70%;
+  width:60px;
+  background:white;
+  border-radius:50%;
+  border:1px solid black;
+  margin-left:100px;
+}
+.aboutUs{
+  background:red;
+  color:#B41A23;
+  font-size:1em;
+}
+h1{
+  padding-top:50px;
+  font-size:4em;
+  font-weight:bold;
+  text-align:center;
+}
+.apropos{
+  color:white;
+  padding-top:50px;
+  width:70%;
+  font-size:1.5em;
+  padding-left:30%;
+  padding-bottom:50px;
+  text-align:justify;
+}
+#test {
+  animation: test 1s infinite;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
 }
 
+@keyframes test {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
 
 /* Arnaud */
 
