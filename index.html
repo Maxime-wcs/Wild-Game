@@ -36,7 +36,7 @@
 
 <!-- Fabien -->
 
-<nav class="navbar navbar-default ">
+<nav class="navbar navbar-default navbar-fixed">
 <div class="container-fluid">
 
 <div class="navbar-header">
@@ -320,6 +320,39 @@ data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
               in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
               with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <!-- Modal -->
+          <div class="modal fade" id="modalSnack" role="dialog">
+              <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Notre carte</h4>
+                      </div>
+                      <div class="modal-body">
+                          <div class="row">
+                              <div class="col-md-6 col-xs-12">
+                                  <h5>Les repas</h5>
+                              </div>
+                              <div class="col-md-6 col-xs-12">
+                                  <h5>Les boissons</h5>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div> <!-- end Modal -->
+
+          <fieldset>
+              <div class="form-group">
+                  <div class="col-md-12">
+                      <button id="boutonSnack" name="boutonSnack" class="btn btn-success center-block" data-toggle="modal" data-target="#modalSnack">Ouvrir la carte</button>
+                  </div>
+              </div>
+          </fieldset>
+
       </section>
 
   <!--  Information  -->
@@ -345,7 +378,7 @@ data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                       <fieldset>
 
 
-                          <legend>Contactez nous</legend>
+                          <legend>Ecrivez nous</legend>
 
 
                           <div class="form-group">
