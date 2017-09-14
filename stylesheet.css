@@ -93,6 +93,72 @@ margin-left: 70%;
 	text-align: center;
 }
 
+/*  Restauration */
+
+
+#restauration p {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 80px;
+  margin: 0 50px;
+}
+
+#myCarousel {
+  height: 450px;
+  width: 800px;
+}
+
+
+
+
+/*  Informations complémentaires */
+
+section h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+section label {
+  font-size: 17px;
+}
+
+#information {
+  font-size: 19px;
+}
+
+
+
+
+/*  Footer   */
+
+footer {
+  background-color: #363B32;
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #C71EE2;
+}
+
+.container {
+  width: 90%;
+}
+
+footer img {
+  height: 80px;
+  width: 80px;
+}
+
 /* responsive */
 @media screen and (max-width: 768px) {
 
