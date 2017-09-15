@@ -8,19 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Geo|Jura|Orbitron|Syncopate" rel="stylesheet">
 </head>
 
 <body>
-<div class="container-fluid">
+<div class="container-fluid conteneurGlobal">
 <!-- Vue de la salle avec logo et nom de la salle -->
-<header>
+<header id="L">
 
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h1 class="text-center">Wild
                     <br />
-                    Game</h1>
+                    Games</h1>
             </div>
         </div>
 </header>
@@ -30,12 +32,16 @@
 
 <div class="aboutUs">
     <h1>INSERT COINS</h1>
-    <p class="apropos">
+    <div class="row">
+    <div class="apropos col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+        <p>
         Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
         nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
         faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
         qui n'en sont encore.
-    </p>
+        </p>
+    </div>
+    </div>
 </div>
 
 
@@ -43,6 +49,12 @@
     <div class="container-fluid">
 
         <div class="navbar-header">
+            <div class="logotitle">
+                <img class="pull-left headerLogo" src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png"
+                     alt="Heberger image" >
+                <a class="navbar-brand" href="#"><strong>Wild Games</strong></a>
+            </div>
+
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -50,37 +62,38 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <img class="pull-left" src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png"
-                 alt="Heberger image" ><a class="navbar-brand" href="#"><strong>Wild Game</strong></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-            <ul class="nav navbar-nav navbar-justify">
-                <li><a href="#"><img class="icone" src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-18-128.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://cdn2.iconfinder.com/data/icons/retro-games/64/retro-games-icon-11-128.png"></a></li>
-                <li><a href="#"><img class="icone" src="http://land-act.fr/wp-content/uploads/2017/05/icon-babyfoot.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://cdn2.iconfinder.com/data/icons/virtual-reality-1/500/VR_2-128.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://www.shareicon.net/data/128x128/2016/09/13/828850_board-game_512x512.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://cdn4.iconfinder.com/data/icons/sports-recreation/128/ping-pong2-128.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://icon-icons.com/icons2/630/PNG/128/ball-eight-of-billiard_icon-icons.com_57940.png"></a></li>
-                <li><a href="#"><img class="icone" src="https://www.shareicon.net/data/128x128/2015/10/19/658508_food_512x512.png"></a></li>
+            <ul class="nav navbar-nav navbar-justify navIcone">
+                <li><a href="#L"><img class="icone" src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-18-128.png"></a></li>
+                <li><a href="#Larcade"><img class="icone" src="https://cdn2.iconfinder.com/data/icons/retro-games/64/retro-games-icon-11-128.png"></a></li>
+                <li><a href="#Lbabyfoot"><img class="icone" src="http://land-act.fr/wp-content/uploads/2017/05/icon-babyfoot.png"></a></li>
+                <li><a href="#Lsimulateur"><img class="icone" src="https://cdn2.iconfinder.com/data/icons/virtual-reality-1/500/VR_2-128.png"></a></li>
+                <li><a href="#Lairhockey"><img class="icone" src="https://www.shareicon.net/data/128x128/2016/09/13/828850_board-game_512x512.png"></a></li>
+                <li><a href="#Lpingpong"><img class="icone" src="https://cdn4.iconfinder.com/data/icons/sports-recreation/128/ping-pong2-128.png"></a></li>
+                <li><a href="#Lbillard"><img class="icone" src="https://icon-icons.com/icons2/630/PNG/128/ball-eight-of-billiard_icon-icons.com_57940.png"></a></li>
+                <li><a href="#Lsnack"><img class="icone" src="https://www.shareicon.net/data/128x128/2015/10/19/658508_food_512x512.png"></a></li>
             </ul>
 
         </div>
     </div>
 </nav>
 <!-- Arnaud -->
-
-<div class="inner-body">
+<div class="conteneurPerso">
+<div class="inner-body ">
   <!-- row Arcade -->
-  <div class="row corps-content">
-    <div class="corps-image col-xs-5 col-md-4 col-md-offset-1">
+  <div class="row corps-content" id="Larcade">
+    <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
       <img class="img-responsive" src="data/arcade.jpg" alt="" data-toggle="modal" data-target="#modalArcade">
     </div>
-    <div class="corps-texte text-center col-xs-6 col-xs-offset-1 col-md-5 col-md-offset-1">
+    <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Arcade</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+          nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+          faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+          qui n'en sont encore.</p>
     </div>
 
     <!-- Modal -->
@@ -107,14 +120,18 @@
   <hr>
 
   <!-- row baby foot -->
-  <div class="row corps-content">
-    <div class="corps-texte text-center col-xs-6 col-md-5 col-md-offset-1">
+  <div class="row corps-content" id="Lbabyfoot">
+      <div class="corps-image col-xs-12  col-md-4 col-md-offset-1">
+          <img class="img-responsive" src="data/baby_foot.jpeg" alt="" data-toggle="modal" data-target="#modalBabyFoot">
+      </div>
+    <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Baby-Foot</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+            faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+            qui n'en sont encore.</p>
     </div>
-    <div class="corps-image col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-1">
-      <img class="img-responsive" src="data/baby_foot.jpeg" alt="" data-toggle="modal" data-target="#modalBabyFoot">
-    </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="modalBabyFoot" role="dialog">
@@ -140,13 +157,16 @@
   <hr>
 
   <!-- row Simulateurs -->
-  <div class="row corps-content">
-    <div class="corps-image col-xs-5 col-md-4 col-md-offset-1">
+  <div class="row corps-content" id="Lsimulateur">
+    <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
       <img class="img-responsive" src="data/simulateur.jpg" alt="" data-toggle="modal" data-target="#modalSimulateur">
     </div>
-    <div class="corps-texte text-center col-xs-6 col-xs-offset-1 col-md-5 col-md-offset-1">
+    <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Simulateur</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+            faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+            qui n'en sont encore.</p>
     </div>
 
     <!-- Modal -->
@@ -173,13 +193,17 @@
   <hr>
 
   <!-- row Air Hockey -->
-  <div class="row corps-content">
-    <div class="corps-texte text-center col-xs-6 col-md-5 col-md-offset-1">
+  <div class="row corps-content" id="Lairhockey">
+      <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+          <img class="img-responsive" src="data/airhockey.jpg" alt="" data-toggle="modal" data-target="#modalAirHockey">
+      </div>
+
+      <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Air Hockey</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-    </div>
-    <div class="corps-image col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-1">
-      <img class="img-responsive" src="data/airhockey.jpg" alt="" data-toggle="modal" data-target="#modalAirHockey">
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+            faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+            qui n'en sont encore.</p>
     </div>
 
     <!-- Modal -->
@@ -206,13 +230,16 @@
   <hr>
 
   <!-- row Ping Pong -->
-  <div class="row corps-content">
-    <div class="corps-image col-xs-5 col-md-4 col-md-offset-1">
+  <div class="row corps-content" id="Lpingpong">
+    <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
       <img class="img-responsive" src="data/pingpong.jpg" alt="" data-toggle="modal" data-target="#modalPingPong">
     </div>
-    <div class="corps-texte text-center col-xs-6 col-xs-offset-1 col-md-5 col-md-offset-1">
+    <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Ping Pong</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+            faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+            qui n'en sont encore.</p>
     </div>
 
     <!-- Modal -->
@@ -239,14 +266,19 @@
   <hr>
 
   <!-- row Billard -->
-  <div class="row corps-content">
-    <div class="corps-texte text-center col-xs-6 col-md-5 col-md-offset-1">
+  <div class="row corps-content" id="Lbillard">
+      <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+          <img class="img-responsive" src="http://interactiveattractions.com/wp-content/uploads/2016/02/Black-Light-Arcade-web.jpg"
+               alt="" data-toggle="modal" data-target="#modalBillard">
+      </div>
+    <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
       <h1>Billard</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+            nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+            faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+            qui n'en sont encore.</p>
     </div>
-    <div class="corps-image col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-1">
-      <img class="img-responsive" src="data/billard.jpg" alt="" data-toggle="modal" data-target="#modalBillard">
-    </div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="modalBillard" role="dialog">
@@ -269,25 +301,27 @@
 
   </div> <!-- end row -->
 
-</div> <!-- end inner-body -->
+    <br />
 
 <!-- Maxime -->
 
 <!--  Restauration  -->
 
 
-      <section id="restauration">
+      <section id="Lsnack">
           <h2>La restauration</h2>
 
           <!-- Carrousel  -->
 
-          <div class="row">
+          <div class="row " >
               <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                       <li data-target="#myCarousel" data-slide-to="1"></li>
                       <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
@@ -303,6 +337,12 @@
                       <div class="item">
                           <img src="data/cocktail.jpg" alt="Cocktail" style="width:100%;">
                       </div>
+                      <div class="item">
+                          <img src="https://s-media-cache-ak0.pinimg.com/originals/c8/af/e6/c8afe6457997851b504458a30b6d223d.jpg" alt="<3" style="width:100%;">
+                      </div>
+                      <div class="item">
+                          <img src="http://p1.pichost.me/i/54/1773781.jpg" alt="<4" style="width:100%;">
+                      </div>
                   </div>
 
                   <!-- Left and right controls -->
@@ -316,14 +356,16 @@
                   </a>
               </div>
           </div>
-
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-              with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <!-- Modal -->
+            <div class="row">
+                 <div class="col-xs-8 col-xs-offset-2">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                      the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                      of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                      but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                      in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                      with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 </div>
+                               <!-- Modal -->
           <div class="modal fade" id="modalSnack" role="dialog">
               <div class="modal-dialog">
 
@@ -337,9 +379,18 @@
                           <div class="row">
                               <div class="col-md-6 col-xs-12">
                                   <h5>Les repas</h5>
+                                  <ul class="list-unstyled">
+                                      <li>Sandwich</li>
+                                      <li>Hamburger</li>
+
+                                  </ul>
                               </div>
                               <div class="col-md-6 col-xs-12">
                                   <h5>Les boissons</h5>
+                                  <ul class="list-unstyled">
+                                      <li>Bière</li>
+                                      <li>Sans alcool</li>
+                                  </ul>
                               </div>
                           </div>
                       </div>
@@ -347,16 +398,18 @@
 
               </div>
           </div> <!-- end Modal -->
-
+            </div>
           <fieldset>
               <div class="form-group">
                   <div class="col-md-12">
-                      <button id="boutonSnack" name="boutonSnack" class="btn btn-success center-block" data-toggle="modal" data-target="#modalSnack">Ouvrir la carte</button>
+                      <button id="boutonSnack" name="boutonSnack" class="btn btn-warning center-block" data-toggle="modal" data-target="#modalSnack">Ouvrir la carte</button>
                   </div>
               </div>
           </fieldset>
 
       </section>
+
+</div> <!-- end inner-body -->
 
   <!--  Information  -->
 
@@ -367,7 +420,7 @@
 
                   <address class="thumbnail">
                       <legend>Vous pouvez nous contacter à cette adresse :</legend>
-                      <strong>Wild Game</strong><br>
+                      <strong>Wild Games</strong><br>
                       1 avenue du Champ de Mars<br>
                       45100 Orléans<br><br>
                       <p><strong>Téléphone : </strong>0123456789</p>
@@ -396,7 +449,7 @@
                           <div class="form-group">
                               <label class="col-md-3 control-label" for="emailinput">Votre email :</label>
                               <div class="col-md-8">
-                                  <input id="emailinput" name="emailinput" placeholder="votremail@mail.fr" class="form-control input-md" required="" type="text">
+                                  <input id="emailinput" name="emailinput"  class="form-control input-md" required="" type="text">
 
                               </div>
                           </div>
@@ -413,7 +466,7 @@
                           <div class="form-group">
 
                               <div class="col-md-8">
-                                  <button id="singlebutton" name="singlebutton" class="btn btn-success pull-right">Envoyer</button>
+                                  <button id="singlebutton" name="singlebutton" class="btn btn-warning pull-right">Envoyer</button>
                               </div>
                           </div>
 
@@ -426,22 +479,26 @@
       </section>
 
    <!--  Footer  -->
-
+</div>
       <footer>
           <div class="row">
-              <div class="  col-xs-6">
+              <div class="col-xs-6 col-md-5">
                   <h3>Le Wild Games</h3>
                   <ul class="list-unstyled">
                       <li><a href="#">Arcade</a></li>
-                      <li><a href="#">Babyfoot</a></li>
-                      <li><a href="#">Simulateur</a></li>
-                      <li><a href="#">Jeux de pallet</a></li>
-                      <li><a href="#">Table de ping-pong</a></li>
-                      <li><a href="#">Billard</a></li>
-                      <li><a href="#restauration">Snack</a></li>
+                      <li><a href="#Lbabyfoot">Babyfoot</a></li>
+                      <li><a href="#Lsimulateur">Simulateur</a></li>
+                      <li><a href="#Lairhockey">Air hockey</a></li>
+                      <li><a href="#Lpingpong">Table de ping-pong</a></li>
+                      <li><a href="#Lbillard">Billard</a></li>
+                      <li><a href="#Lsnack">Snack</a></li>
                   </ul>
-              </div >
-              <div class=" col-xs-6 center-block">
+              </div>
+              <div class="col-md-2 hidden-xs">
+                  <p class="font-player">Game Over</p>
+              </div>
+
+              <div class="col-xs-6 col-md-5 center-block">
                   <h3>A propos</h3>
                   <ul class="list-unstyled">
                       <li><a href="#information">Nous contacter</a></li>
@@ -449,12 +506,13 @@
                       <li>Orléans</li>
                       <li>0123456789</li>
                       <li>Horaires : 12h à 22 h</li>
+                      <li>Accès handicapes</li>
+                      <li>Wifi</li>
                   </ul>
               </div>
           </div>
           <img class="logoFooter" src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png">
           <p>Copyright - 2017 </p>
-          <p>Made with love by Wild Code School</p>
       </footer>
 </div>
 
@@ -464,7 +522,7 @@
 
   <script>
       /*   scroll vers les ancres   */
-      $('a[href^="#"]').click(function(){
+     $('a[href^="#L"]').click(function(){
           var the_id = $(this).attr("href");
           $('html, body').animate({
               scrollTop:$(the_id).offset().top

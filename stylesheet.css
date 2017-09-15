@@ -1,8 +1,18 @@
+.conteneurPerso {
+  width: 90%;
+  margin:0 auto;
+}
+
+.container-fluid {
+  background-color: black;
+  margin: 0;
+}
+
 header {
-    margin-top: 90px;
+  margin-top: 90px;
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 70vh;
   background: url("http://mangamotaku.e-monsite.com/medias/images/slide-arcade.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,9 +20,14 @@ header {
   background-size: cover;
 }
 
+.navIcone img:hover {
+  border : 2px solid orange;
+}
+
 header h1 {
   color: white;
-  font-size: 100px;
+  font-size: 5vw;
+  margin-top: 10vw;
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -21,28 +36,38 @@ header h1 {
     height: 50px;
 }
 
+nav {
+  height: 10vh;
+}
+
 /* fabien */
 
-.pull-left{ /*modif*/
+.headerLogo{ /*modif*/
   width:60px;
-  padding-left:1em;
-  padding-top:5px;
+  margin-left:1em;
+  margin-top:20px;*/
   color:black;
+
 }
+
+.logotitle strong{
+  color: white;
+}
+
 .icone{
-  width:60px;
+  width: 60px;
   background:white;
   border-radius:50%;
-  border:1px solid black;
-  margin-left:100px;
+  border:1px solid white;
+  margin-left: 100px;
 }
 .aboutUs{
   color:#B41A23;
   font-size:1em;
 }
-.aboutUs h1{
+.aboutUs h1, .font-player{
     padding-top:50px;
-    font-size:4em;
+    font-size: 5vw;
     font-weight:bold;
     text-align:center;
 
@@ -52,12 +77,17 @@ header h1 {
     text-align: center;
     text-shadow: 2px 2px 1px black;
 }
+
+.font-player {
+  padding: 0;
+  margin: 0;
+}
+
 .aboutUs p{
-  color:black;
+  color:white;
   padding-top:50px;
-  width:70%;
+
   font-size:1.5em;
-  padding-left:30%;
   padding-bottom:50px;
   text-align:justify;
 }
@@ -77,19 +107,32 @@ header h1 {
 
 /* Arnaud */
 
-/* style.css */
 
 /* inner-body */
+.inner-body, section {
+  padding-top: 30px;
+  background-color: white;
+}
+
+hr {
+  height: 5px;
+  background: #f39c12;
+  width: 50%;
+}
+
 .inner-body {
-	width: 95%;
+  border-radius: 15px;
+  background: #bdc3c7;
+ /* background: url(data/back.jpg) center;*/
 }
 
 .corps-image img {
-	border-radius: 10%;
+	border-radius: 15px;
+  border: 3px solid black;
 }
 
 .corps-image {
-	background: radial-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+  border-radius: 15px;
 }
 
 /* modal */
@@ -98,20 +141,25 @@ header h1 {
 }
 
 /*  Restauration */
+section h2 {
+  padding: 40px;
+}
 
 
 #restauration p {
   font-size: 20px;
   text-align: justify;
-  padding-top: 80px;
-  margin: 0 50px;
 }
 
 #myCarousel {
-  height: 450px;
-  width: 800px;
+  height: 400px;
+  width: 700px;
+  margin-bottom: 3%;
 }
 
+#Lsnack div p {
+  padding-top: 25px;
+}
 
 
 
@@ -119,7 +167,9 @@ header h1 {
 
 section h2 {
   text-align: center;
-  margin: 50px 0;
+  margin: 0;
+  padding-top: 40px;
+  font-family: Syncopate;
 }
 
 section label {
@@ -130,27 +180,32 @@ section label {
   font-size: 19px;
 }
 
+address {
+  margin-left: 20px;
+}
+
 
 
 /*  Footer   */
 
 footer {
-  background-color: #363B32;
   color: white;
-  margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
   text-align: center;
   font-size: 18px;
   padding: 30px;
+
+  background: url(data/pac_ghost.jpg) no-repeat bottom right;
+  background-size: 50%;
 }
 
-footer a {
+footer a, footer a:focus  {
   color: white;
 }
 
-footer a:hover {
+footer a:hover{
   text-decoration: none;
-  color: #C71EE2;
+  color: orange;
 }
 
 footer img {
@@ -158,10 +213,22 @@ footer img {
   width: 80px;
 }
 
+
+p, address, form, h3 {
+  font-family: Syncopate;
+}
+
+
+
+
 /* responsive */
 @media screen and (max-width: 768px) {
 
 	.corps-texte {
 		font-size: 1.7em;
 	}
+
+  #L h1 {
+    font-size : 50px;
+  }
 }
