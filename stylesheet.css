@@ -213,11 +213,9 @@ footer img {
   width: 80px;
 }
 
-
-p, address, form, h3 {
+* {
   font-family: Syncopate;
 }
-
 
 
 
