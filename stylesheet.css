@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-  background-color: black;
+  background-color:black;
   margin: 0;
 }
 
@@ -33,12 +33,13 @@ header h1 {
 }
 
 .logoFooter {
-  width: 50px;
-  height: 50px;
+  width:50px;
+  height:50px;
 }
 
 nav {
-  height: 10vh;
+
+
 }
 
 /* fabien */
@@ -58,29 +59,28 @@ nav {
 }
 
 .icone {
-  width: 60px;
-  height:60px;
+  width: 50px;
+  height:50px;
 }
 .aboutUs{
   color:#B41A23;
   font-size:1em;
 }
 .aboutUs h1, .font-player{
-    padding-top:50px;
-    font-size: 5vw;
-    font-weight:bold;
-    text-align:center;
-    -moz-user-select: none;
-    user-select:none;
-    animation: test 1s infinite;
-    font-family: 'Press Start 2P', cursive;
-    color: darkred;
-    text-align: center;
-    text-shadow: 2px 2px 1px black;
+  padding-top:50px;
+  font-size: 5vw;
+  font-weight:bold;
+  text-align:center;
+  -moz-user-select: none;
+  user-select:none;
+  animation: test 1s infinite;
+  font-family: 'Press Start 2P', cursive;
+  color: darkred;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
 }
 figure {
   text-align:center;
-
 }
 figcaption {
   font-size:1.45em;
@@ -120,6 +120,8 @@ figcaption {
       opacity: 1;
   }
 }
+/* fin fabien */
+
 /* Arnaud */
 
 
