@@ -19,9 +19,9 @@ header {
   -o-background-size: cover;
   background-size: cover;
 }
-
+/* rotate icon */
 .navIcone img:hover {
-  border : 2px solid orange;
+  transform: rotate(5deg);
 }
 
 header h1 {
@@ -29,11 +29,12 @@ header h1 {
   font-size: 5vw;
   margin-top: 10vw;
   font-family: 'Press Start 2P', cursive;
+  text-shadow:2px 2px 2px black;
 }
 
 .logoFooter {
   width: 50px;
-    height: 50px;
+  height: 50px;
 }
 
 nav {
@@ -42,51 +43,52 @@ nav {
 
 /* fabien */
 
-.headerLogo{ /*modif*/
+.headerLogo { /*modif*/
   width:60px;
   margin-left:1em;
   margin-top:20px;*/
   color:black;
-
+}
+.text-logo {
+  font-size:1.45em;
+  color:white;
+  padding-left:10px;
+  padding-top: 30px;
+  margin-left: -2px;
 }
 
-.logotitle strong{
-  color: white;
-}
-
-.icone{
+.icone {
   width: 60px;
-  background:white;
-  border-radius:50%;
-  border:1px solid white;
-  margin-left: 100px;
-}
-.aboutUs{
-  color:#B41A23;
-  font-size:1em;
-}
-.aboutUs h1, .font-player{
-    padding-top:50px;
-    font-size: 5vw;
-    font-weight:bold;
-    text-align:center;
+  height:60px;
 
-    animation: test 1s infinite;
-    font-family: 'Press Start 2P', cursive;
-    color: darkred;
-    text-align: center;
-    text-shadow: 2px 2px 1px black;
 }
+figure {
+  text-align:center;
 
+}
+figcaption {
+  font-size:1.45em;
+  color:white;
+  padding-top:10px;
+  margin-left:17px;
+}
+.aboutUs h1, .font-player {
+  padding-top:50px;
+  font-size: 5vw;
+  font-weight:bold;
+  animation: test 1s infinite;
+  font-family: 'Press Start 2P', cursive;
+  color: darkred;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+}
 .font-player {
   padding: 0;
   margin: 0;
 }
-
-.aboutUs p{
+.aboutUs p {
   color:white;
   padding-top:50px;
-
   font-size:1.5em;
   padding-bottom:50px;
   text-align:justify;
@@ -103,8 +105,6 @@ nav {
       opacity: 1;
   }
 }
-
-
 /* Arnaud */
 
 
@@ -127,7 +127,7 @@ hr {
 }
 
 .corps-image img {
-	border-radius: 15px;
+  border-radius: 15px;
   border: 3px solid black;
 }
 
@@ -222,7 +222,8 @@ p, address, form, h3 {
 
 
 /* responsive */
-@media screen and (max-width: 768px) {
+
+  @media screen and (max-width: 768px) {
 
 	.corps-texte {
 		font-size: 1.7em;
