@@ -3,6 +3,7 @@
   margin:0 auto;
 }
 
+
 .container-fluid {
   background-color:black;
   margin: 0;
@@ -51,11 +52,11 @@ nav {
   color:black;
 }
 .text-logo {
-  font-size:1.45em;
+  font-size:1em;
   color:white;
   padding-left:10px;
   padding-top: 30px;
-  margin-left: -2px;
+  margin-left:-2px;
 }
 
 .icone {
@@ -81,11 +82,13 @@ nav {
 }
 figure {
   text-align:center;
+
 }
 figcaption {
-  font-size:1.45em;
+  font-size:1.em;
   color:white;
   padding-top:10px;
+  padding-left:25%;
 }
 .aboutUs h1, .font-player {
   padding-top:50px;
@@ -238,6 +241,9 @@ footer img {
 
 /* responsive */
 
+
+
+  }
   @media screen and (max-width: 768px) {
 
 	.corps-texte {
