@@ -58,8 +58,8 @@ nav {
 }
 
 .icone {
-  width: 60px;
-  height:60px;
+  width: 50px;
+  height:50px;
 }
 .aboutUs{
   color:#B41A23;
@@ -80,7 +80,6 @@ nav {
 }
 figure {
   text-align:center;
-
 }
 figcaption {
   font-size:1.45em;
