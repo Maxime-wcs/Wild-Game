@@ -38,10 +38,7 @@ header h1 {
   height:50px;
 }
 
-nav {
 
-
-}
 
 /* fabien */
 
@@ -80,6 +77,9 @@ nav {
   color: darkred;
   text-align: center;
   text-shadow: 2px 2px 1px black;
+}
+.navIcone :hover figcaption {
+  color:orange;
 }
 figure {
   text-align:center;
