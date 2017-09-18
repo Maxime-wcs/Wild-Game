@@ -59,14 +59,7 @@ nav {
 
 .icone {
   width: 60px;
-<<<<<<< HEAD
   height:60px;
-
-=======
-  background:white;
-  border-radius:50%;
-  border:1px solid white;
-  margin-left: 100px;
 }
 .aboutUs{
   color:#B41A23;
@@ -84,7 +77,6 @@ nav {
     color: darkred;
     text-align: center;
     text-shadow: 2px 2px 1px black;
->>>>>>> d08eee70b5948e792550c76d7fbd9194993a1518
 }
 figure {
   text-align:center;
@@ -94,7 +86,6 @@ figcaption {
   font-size:1.45em;
   color:white;
   padding-top:10px;
-  margin-left:17px;
 }
 .aboutUs h1, .font-player {
   padding-top:50px;
@@ -115,7 +106,7 @@ figcaption {
   padding-top:50px;
   font-size:1.5em;
   padding-bottom:50px;
-  text-align:justify;
+  text-align:center;
 }
 
 @keyframes test {
