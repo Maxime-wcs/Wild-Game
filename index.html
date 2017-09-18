@@ -31,6 +31,7 @@
 
 
 <div class="aboutUs">
+<<<<<<< HEAD
 
     <h1>INSERT COINS</h1>
         <div class="row">
@@ -43,6 +44,19 @@
               </p>
           </div>
         </div>
+=======
+    <h1 id="result"  onclick="clickCounter()">INSERT COIN.</h1>
+    <div class="row">
+    <div class="apropos col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+        <p>
+        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+        nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur
+        faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites
+        qui n'en sont encore.
+        </p>
+    </div>
+    </div>
+>>>>>>> d08eee70b5948e792550c76d7fbd9194993a1518
 </div>
 
 <!-- fab navbar-->
@@ -530,6 +544,55 @@
 
 
   <script>
+  // prepare sounds to be called as variables
+  var coin = new Audio('sounds/streetcoin.mp3');
+  var oneup = new Audio("sounds/oneup.mp3");
+  var gameoverz = [
+    "sounds/death1.mp3",
+    "sounds/death2.mp3",
+    "sounds/death3.mp3",
+    "sounds/death4.mp3",
+    "sounds/death5.mp3",
+    "sounds/death6.mp3",
+    "sounds/ghouls.mp3",
+    "sounds/mario.mp3",
+    "sounds/tetris.mp3",
+    "sounds/pacman.mp3"
+  ];
+
+// counts the number of credits
+  function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+
+    //reset the counter when it reaches 100 and play a sound
+    if (sessionStorage.clickcount >= 99) {
+        sessionStorage.clickcount = 0;
+        oneup.play();
+    }
+      //increase the counter, stop the current sound and start a new one
+      else if (sessionStorage.clickcount) {
+          sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+          coin.load();
+          coin.play();
+      }
+      // set the first credit
+      else {
+          sessionStorage.clickcount = 1;
+          coin.play();
+      }
+      // change INSERT COIN. to CREDITS
+      document.getElementById("result").innerHTML = "CREDITS " + sessionStorage.clickcount;
+      } else {
+          document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+      }
+    };
+
+  // play a random sound when Game Over is clicked
+  $(".font-player").on("click", function(){
+    var randomGameOver = new Audio(gameoverz[Math.floor(Math.random()*gameoverz.length)]);
+    randomGameOver.play();
+  });
+
       /*   scroll vers les ancres   */
      $('a[href^="#L"]').click(function(){
           var the_id = $(this).attr("href");
@@ -538,6 +601,7 @@
           }, 'slow');
           return false;
       });
+
   </script>
 </body>
 

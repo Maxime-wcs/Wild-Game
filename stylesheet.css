@@ -59,8 +59,32 @@ nav {
 
 .icone {
   width: 60px;
+<<<<<<< HEAD
   height:60px;
 
+=======
+  background:white;
+  border-radius:50%;
+  border:1px solid white;
+  margin-left: 100px;
+}
+.aboutUs{
+  color:#B41A23;
+  font-size:1em;
+}
+.aboutUs h1, .font-player{
+    padding-top:50px;
+    font-size: 5vw;
+    font-weight:bold;
+    text-align:center;
+    -moz-user-select: none;
+    user-select:none;
+    animation: test 1s infinite;
+    font-family: 'Press Start 2P', cursive;
+    color: darkred;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+>>>>>>> d08eee70b5948e792550c76d7fbd9194993a1518
 }
 figure {
   text-align:center;
@@ -213,11 +237,9 @@ footer img {
   width: 80px;
 }
 
-
-p, address, form, h3 {
+* {
   font-family: Syncopate;
 }
-
 
 
 
