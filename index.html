@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Geo|Jura|Orbitron|Syncopate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
 </head>
 
 <body>
@@ -104,7 +104,7 @@
           qui n'en sont encore.</p>
     </div>
 
-    
+
 
   </div> <!-- end row -->
 
@@ -215,7 +215,6 @@
                       <li data-target="#myCarousel" data-slide-to="1"></li>
                       <li data-target="#myCarousel" data-slide-to="2"></li>
                       <li data-target="#myCarousel" data-slide-to="3"></li>
-                      <li data-target="#myCarousel" data-slide-to="4"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
@@ -230,9 +229,6 @@
 
                       <div class="item">
                           <img src="data/cocktail.jpg" alt="Cocktail" style="width:100%;">
-                      </div>
-                      <div class="item">
-                          <img src="https://s-media-cache-ak0.pinimg.com/originals/c8/af/e6/c8afe6457997851b504458a30b6d223d.jpg" alt="<3" style="width:100%;">
                       </div>
                       <div class="item">
                           <img src="http://p1.pichost.me/i/54/1773781.jpg" alt="<4" style="width:100%;">
@@ -558,7 +554,7 @@
           document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
       }
     };
-
+$(document).ready(function(){
   // play a random sound when Game Over is clicked
   $(".font-player").on("click", function(){
     var randomGameOver = new Audio(gameoverz[Math.floor(Math.random()*gameoverz.length)]);
@@ -573,7 +569,7 @@
           }, 'slow');
           return false;
       });
-
+});
   </script>
 </body>
 
