@@ -7,6 +7,7 @@ body {
   margin:0 auto;
 }
 
+
 .container-fluid {
   background-color:black;
   margin: 0;
@@ -40,10 +41,7 @@ header h1 {
   height:50px;
 }
 
-nav {
 
-
-}
 
 /* fabien */
 
@@ -54,16 +52,17 @@ nav {
   color:black;
 }
 .text-logo {
-  font-size:1.45em;
+  font-size:1em;
   color:white;
   padding-left:10px;
   padding-top: 30px;
-  margin-left: -2px;
+  margin-left:-2px;
 }
 
 .icone {
   width: 50px;
   height:50px;
+  margin-left:35%;
 }
 .aboutUs{
   color:#B41A23;
@@ -82,13 +81,18 @@ nav {
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
+.navIcone :hover figcaption {
+  color:orange;
+}
 figure {
   text-align:center;
+
 }
 figcaption {
-  font-size:1.45em;
+  font-size:1.em;
   color:white;
   padding-top:10px;
+  margin-left:35%;
 }
 .aboutUs h1, .font-player {
   padding-top:50px;
@@ -241,6 +245,9 @@ footer img {
 
 /* responsive */
 
+
+
+  }
   @media screen and (max-width: 768px) {
 
 	.corps-texte {
