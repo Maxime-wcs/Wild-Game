@@ -279,3 +279,12 @@ footer img {
   }
 
 }
+
+@media screen and (max-width: 768px) {
+
+  #modalArcade .modal-dialog {
+    width: 97%;
+    height: 0.9vh;
+  }
+
+}
