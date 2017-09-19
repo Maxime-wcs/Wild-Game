@@ -152,9 +152,20 @@ hr {
   border-radius: 15px;
 }
 
-/* modal */
-.modal * {
+/* Arcade Modal */
+#modalArcade .modal-dialog {
+  width: 90%;
+  height: 1vh;
 	text-align: center;
+}
+
+/* Carousel */
+#gamesCarousel {
+  text-align: center;
+}
+
+#gamesCarousel .carousel-inner > .item > img {
+  height: 80vh;
 }
 
 /*  Restauration */
@@ -247,4 +258,14 @@ footer img {
   #L h1 {
     font-size : 50px;
   }
+}
+
+/* Responsive modal */
+@media screen and (min-width: 1200px) {
+
+  #modalArcade .modal-dialog {
+    width: 60%;
+    height: 0.9vh;
+  }
+
 }
