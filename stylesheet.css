@@ -317,17 +317,32 @@ footer img {
 
 
 
-  }
+
   @media screen and (max-width: 768px) {
 
-	.corps-texte {
-		font-size: 1.7em;
+	.corps-texte, footer, address, section label, .aboutUs p {
+		font-size: 15px;
 	}
 
-  #L h1 {
-    font-size : 50px;
+    .corps-texte h1, section h2 {
+      font-size: 25px;
+    }
+
+    .headerTitle {
+      font-size : 50px;
+      padding-top: 50px;
+    }
+
+    header {
+      height: 300px;
+    }
+
+    .mario {
+      height:50px;
+    }
+
+
   }
-}
 
 /* Responsive modal */
 @media screen and (min-width: 1200px) {
