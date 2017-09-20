@@ -71,6 +71,9 @@ header h1 {
 .aboutUs{
   color:#B41A23;
   font-size:1em;
+  width: 100%;
+  background: rgb(107,136,254);
+  background-size: cover;
 }
 .aboutUs h1, .font-player{
   padding-top:50px;
@@ -84,6 +87,12 @@ header h1 {
   color: darkred;
   text-align: center;
   text-shadow: 2px 2px 1px black;
+}
+.mario {
+  height: 243px;
+  width: 100%;
+  background: url("data/fond_mario.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .icone {
@@ -182,6 +191,11 @@ hr {
   height: 80vh;
 }
 
+.blocs {
+  width: 100%;
+  background: url("data/blocs.jpg") center;
+  background-size: contain;
+}
 /*  Restauration */
 section h2 {
   padding: 40px;
