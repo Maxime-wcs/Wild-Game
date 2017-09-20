@@ -54,6 +54,7 @@ header h1 {
   margin-bottom:20px;
   color:black;
 }
+
 .text-logo {
   font-size:1em;
   color:white;
@@ -61,10 +62,12 @@ header h1 {
   padding-top:30px;
   margin-left:5px;
 }
+
 .aboutUs{
   color:#B41A23;
   font-size:1em;
 }
+
 .aboutUs h1, .font-player{
   padding-top:50px;
   font-size: 5vw;
@@ -78,21 +81,25 @@ header h1 {
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
+
 .icone {
   width: 50px;
   height:50px;
   padding-top:10px;
   margin-left:55%;
 }
+
 figure {
   text-align:center;
 }
+
 figcaption {
   font-size:1em;
   color:white;
   padding-top:10px;
   margin-left:55%;
 }
+
 .aboutUs h1, .font-player {
   padding-top:50px;
   font-size: 5vw;
@@ -103,10 +110,12 @@ figcaption {
   text-align: center;
   text-shadow: 2px 2px 2px white;
 }
+
 .font-player {
   padding: 0;
   margin: 0;
 }
+
 .aboutUs p {
   color:white;
   padding-top:50px;
