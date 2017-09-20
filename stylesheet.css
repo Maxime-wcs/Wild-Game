@@ -54,13 +54,15 @@ header h1 {
   margin-bottom:20px;
   color:black;
 }
+
 .text-logo {
   font-size:1em;
   color:white;
   padding-left:10px;
-  padding-top: 30px;
+  padding-top:30px;
   margin-left:5px;
 }
+
 .aboutUs{
   color:#B41A23;
   font-size:1em;
@@ -68,6 +70,7 @@ header h1 {
   background: rgb(107,136,254);
   background-size: cover;
 }
+
 .aboutUs h1, .font-player{
   padding-top:50px;
   font-size: 5vw;
@@ -94,15 +97,18 @@ header h1 {
   padding-top:10px;
   margin-left:55%;
 }
+
 figure {
   text-align:center;
 }
+
 figcaption {
   font-size:1em;
   color:white;
   padding-top:10px;
   margin-left:55%;
 }
+
 .aboutUs h1, .font-player {
   padding-top:50px;
   font-size: 5vw;
@@ -113,10 +119,12 @@ figcaption {
   text-align: center;
   text-shadow: 2px 2px 2px white;
 }
+
 .font-player {
   padding: 0;
   margin: 0;
 }
+
 .aboutUs p {
   color:white;
   padding-top:50px;
@@ -170,6 +178,7 @@ hr {
 .corps-image img {
   border-radius: 15px;
   border: 3px solid black;
+  text-align: center;
 }
 
 /* Arcade Modal */
