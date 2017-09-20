@@ -1,3 +1,7 @@
+body {
+  padding-top: 100px;
+}
+
 .conteneurPerso {
   width: 90%;
   margin:0 auto;
@@ -10,7 +14,6 @@
 }
 
 header {
-  margin-top: 90px;
   position: relative;
   width: 100%;
   height: 70vh;
@@ -163,9 +166,20 @@ hr {
   border-radius: 15px;
 }
 
-/* modal */
-.modal * {
+/* Arcade Modal */
+#modalArcade .modal-dialog {
+  width: 90%;
+  height: 1vh;
 	text-align: center;
+}
+
+/* Carousel */
+#gamesCarousel {
+  text-align: center;
+}
+
+#gamesCarousel .carousel-inner > .item > img {
+  height: 80vh;
 }
 
 /*  Restauration */
@@ -261,4 +275,23 @@ footer img {
   #L h1 {
     font-size : 50px;
   }
+}
+
+/* Responsive modal */
+@media screen and (min-width: 1200px) {
+
+  #modalArcade .modal-dialog {
+    width: 60%;
+    height: 0.9vh;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #modalArcade .modal-dialog {
+    width: 97%;
+    height: 0.9vh;
+  }
+
 }
