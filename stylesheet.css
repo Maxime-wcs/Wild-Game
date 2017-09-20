@@ -41,21 +41,25 @@ header h1 {
 
 /* fabien */
 
-
+.logotitle {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
 
 .headerLogo { /*modif*/
-  width:60px;
+  width:60px;/*
   margin-left:20px;
   margin-top:20px;
-  margin-bottom:20px;
+  margin-bottom:20px;*/
   color:black;
 }
 
 .text-logo {
   font-size:1em;
-  color:white;
+  color: black;
   padding-left:10px;
-  padding-top:30px;
+  padding-top:10px;
   margin-left:5px;
 }
 
