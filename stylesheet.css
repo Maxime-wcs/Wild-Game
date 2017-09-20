@@ -45,20 +45,13 @@ header h1 {
 
 /* fabien */
 
-.navbar-nav {
-  width: 100%;
-  text-align: center;
 
-> li {
-  float:none;
-  display: inline-block;
-}
-}
 
 .headerLogo { /*modif*/
   width:60px;
-  margin-left:1em;
-  margin-top:20px;*/
+  margin-left:20px;
+  margin-top:20px;
+  margin-bottom:20px;
   color:black;
 }
 .text-logo {
@@ -67,6 +60,8 @@ header h1 {
   padding-left:10px;
   padding-top: 30px;
   margin-left:-2px;
+
+
 }
 .aboutUs{
   color:#B41A23;
@@ -85,21 +80,20 @@ header h1 {
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
-
 .icone {
   width: 50px;
   height:50px;
-  margin-left:35px;
+  padding-top:10px;
+  margin-left:55%;
 }
 figure {
   text-align:center;
-
 }
 figcaption {
   font-size:1.em;
   color:white;
   padding-top:10px;
-  margin-left:35px;
+  margin-left:55%;
 }
 .aboutUs h1, .font-player {
   padding-top:50px;
@@ -199,8 +193,7 @@ section h2 {
 }
 
 #myCarousel {
-  height: 400px;
-  width: 700px;
+  width: 70%;
   margin-bottom: 3%;
 }
 
@@ -208,6 +201,9 @@ section h2 {
   padding-top: 25px;
 }
 
+#Lsnack button {
+  margin-top: 30px;
+}
 
 
 /*  Informations complémentaires */
@@ -216,7 +212,6 @@ section h2 {
   text-align: center;
   margin: 0;
   padding-top: 40px;
-  font-family: Syncopate;
 }
 
 section label {
@@ -241,9 +236,8 @@ footer {
   text-align: center;
   font-size: 18px;
   padding: 30px;
-
   background: url(data/pac_ghost.jpg) no-repeat bottom right;
-  background-size: 50%;
+
 }
 
 footer a, footer a:focus  {
@@ -263,6 +257,40 @@ footer img {
 * {
   font-family: Syncopate;
 }
+
+/*  icone */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: lightskyblue;
+  color: white;
+}
+
 
 
 
