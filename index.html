@@ -68,39 +68,25 @@
         <div class="mario">
             <div class="container-fluid ">
 
-                <div class="row">
+                  <div class="row">
 
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1 col-lg-offset-1">
-                        <a href="#Larcade"><figure><img class="icone" src="http://fast1.onesite.com/capcom-unity.com/user/jgonzo/69e924548dd628a82d0118a8506dc80c.png?v=57600">
-                        <figcaption>Arcades</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1">
-                        <a href="#Lbabyfoot"><figure><img class="icone" src="https://img11.hostingpics.net/thumbs/mini_831504footpixelballonfootballsoccerdebardeursdebardeurpremiumfemme.png">
-                      <figcaption>BabyFoot</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1">
-                        <a href="#Lsimulateur"><figure><img class="icone" src="https://opengameart.org/sites/default/files/spr_car4_0.png">
-                      <figcaption>Simulateurs</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1">
-                        <a href="#Lairhockey"><figure><img class="icone" src="https://uploads.scratch.mit.edu/projects/thumbnails/1537880.png">
-                      <figcaption>Air Hockey</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1 col-lg-offset-2">
-                        <a href="#Lpingpong"><figure><img class="icone" src="https://i.pinimg.com/originals/88/bb/8d/88bb8df749e67c95d5455f5aff900efe.png">
-                      <figcaption>Ping Pong</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1">
-                        <a href="#Lbillard"><figure><img class="icone" src="http://pixelartmaker.com/art/53e544796d44e37.png">
-                      <figcaption>Billards</figcaption></figure></a>
-                    </div>
-                    <div class="icons col-xs-4 col-sm-4 col-md-1 col-lg-1">
-                        <a href="#Lsnack"><figure><img class="icone" src="https://i.pinimg.com/originals/dd/0a/d1/dd0ad1fa43fa5ed7b45801e8fabefdc1.png">
-                      <figcaption>Snack</figcaption></figure></a>
-                    </div>
-                </div> <!-- end row -->
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1 col-lg-offset-1"><a href="#Larcade"><figure><img class="icone" src="data/arcadeSign.png">
+                          <figcaption>Arcades</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1"><a href="#Lbabyfoot"><figure><img class="icone" src="data/footSign.png">
+                          <figcaption>BabyFoot</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1"><a href="#Lsimulateur"><figure><img class="icone" src="data/simulateurSign.png">
+                          <figcaption>Simulateurs</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1"><a href="#Lairhockey"><figure><img class="icone" src="data/airhockeySign.png">
+                          <figcaption>Air Hockey</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1 col-lg-offset-2"><a href="#Lpingpong"><figure><img class="icone" src="data/pingpongSign.png">
+                          <figcaption>Ping Pong</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1"><a href="#Lbillard"><figure><img class="icone" src="data/billardSign.png">
+                          <figcaption>Billards</figcaption></figure></a></div>
+                      <div class="divicone col-xs-4 col-sm-4 col-md-1 col-lg-1"><a href="#Lsnack"><figure><img class="icone" src="data/snackSign.png">
+                          <figcaption>Snack</figcaption></figure></a></div>
+                  </div>
 
-            </div><!--fin container-fluid-->
+              </div><!--fin container-fluid-->
 
         </div> <!-- end mario div -->
 
@@ -675,7 +661,7 @@
         });
 
         // adding collapse to nav icons
-        $('.icons').click(function (e) {
+        $('.divicone').click(function (e) {
             e.preventDefault();
             var refId = $(this).find("a").attr('href');
             // collapse all
