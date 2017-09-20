@@ -1,0 +1,33 @@
+.pacman {
+  width: 1px;
+  height: 1px;
+  border: 60px solid yellow;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+.pacman-mouth-bottom {
+  width: 1px;
+  height: 1px;
+  border: 60px solid yellow;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+ .pacman-mouth-top {
+   width: 1px;
+   height: 1px;
+   border: 60px solid yellow;
+   border-bottom-color: transparent;
+   border-right-color: transparent;
+   border-left-color: transparent;
+   border-radius: 50%;
+ }
+
+ .pacman-mouth-bottom {
+    background-color: #222;
+    -moz-animation: rotate(90deg) 0.5s linear infinite;
+    animation: rotate(90deg) 0.5s linear infinite;
+}
