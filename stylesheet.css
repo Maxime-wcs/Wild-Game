@@ -111,6 +111,11 @@ figcaption {
 
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .aboutUs h1, .font-player {
   padding-top:50px;
   font-size: 5vw;
@@ -153,7 +158,6 @@ figcaption {
 
 /* inner-body */
 .inner-body, section {
-  padding-top: 30px;
   background-color: white;
 }
 
@@ -165,7 +169,7 @@ hr {
 
 .inner-body {
   border-radius: 15px;
-  background: #f29635;
+  background: rgba(239, 92, 14, 0.9);
   margin-bottom: 73px;
  /* background: url(data/back.jpg) center;*/
 }
@@ -319,17 +323,32 @@ footer img {
 
 
 
-  }
+
   @media screen and (max-width: 768px) {
 
-	.corps-texte {
-		font-size: 1.7em;
+	.corps-texte, footer, address, section label, .aboutUs p {
+		font-size: 15px;
 	}
 
-  #L h1 {
-    font-size : 50px;
+    .corps-texte h1, section h2 {
+      font-size: 25px;
+    }
+
+    .headerTitle {
+      font-size : 50px;
+      padding-top: 50px;
+    }
+
+    header {
+      height: 300px;
+    }
+
+    .mario {
+      height:50px;
+    }
+
+
   }
-}
 
 /* Responsive modal */
 @media screen and (min-width: 1200px) {
