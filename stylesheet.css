@@ -1,5 +1,5 @@
 body {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .conteneurPerso {
@@ -45,20 +45,13 @@ header h1 {
 
 /* fabien */
 
-.navbar-nav {
-  width: 100%;
-  text-align: center;
 
-> li {
-  float:none;
-  display: inline-block;
-}
-}
 
 .headerLogo { /*modif*/
   width:60px;
-  margin-left:1em;
-  margin-top:20px;*/
+  margin-left:20px;
+  margin-top:20px;
+  margin-bottom:20px;
   color:black;
 }
 .text-logo {
@@ -67,6 +60,8 @@ header h1 {
   padding-left:10px;
   padding-top: 30px;
   margin-left:-2px;
+
+
 }
 .aboutUs{
   color:#B41A23;
@@ -85,21 +80,20 @@ header h1 {
   text-align: center;
   text-shadow: 2px 2px 1px black;
 }
-
 .icone {
   width: 50px;
   height:50px;
-  margin-left:35px;
+  padding-top:10px;
+  margin-left:55%;
 }
 figure {
   text-align:center;
-
 }
 figcaption {
   font-size:1.em;
   color:white;
   padding-top:10px;
-  margin-left:35px;
+  margin-left:55%;
 }
 .aboutUs h1, .font-player {
   padding-top:50px;
