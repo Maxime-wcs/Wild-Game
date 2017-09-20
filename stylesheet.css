@@ -109,6 +109,11 @@ figcaption {
   margin-left:55%;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .aboutUs h1, .font-player {
   padding-top:50px;
   font-size: 5vw;
@@ -163,7 +168,7 @@ hr {
 
 .inner-body {
   border-radius: 15px;
-  background: #f29635;
+  background: rgba(239, 92, 14, 0.9);
   margin-bottom: 73px;
  /* background: url(data/back.jpg) center;*/
 }
