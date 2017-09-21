@@ -165,7 +165,7 @@ figcaption {
 
 /* inner-body */
 
-.inner-body, section {
+section {
   background-color: white;
 }
 
