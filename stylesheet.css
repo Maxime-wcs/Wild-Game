@@ -10,7 +10,7 @@
 header {
   position: relative;
   width: 100%;
-  height:220px;
+  height:230px;
   background: url("data/mariosky.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -138,7 +138,7 @@ figcaption {
 }
 
 .aboutUs h1, .font-player {
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 3em;
   font-weight: bold;
   animation: test 1s infinite;
@@ -158,7 +158,6 @@ figcaption {
   color: white;
   padding-top: 50px;
   font-size: 1.5em;
-  padding-bottom: 50px;
   text-align: center;
 }
 
