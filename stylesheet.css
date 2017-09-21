@@ -104,6 +104,7 @@ header h1 {
   margin-left: -50%;
   position: relative;
   animation: tzitzit 25s linear infinite;
+  user-select: none;
 }
 
 .spaceship {
@@ -113,6 +114,7 @@ header h1 {
   position: relative;
   border-style: none;
   animation: tzitzitfla 25s linear infinite, rotate 25s steps(1, end) infinite;
+  user-select: none;
 }
 
 @keyframes tzitzit {
