@@ -1,3 +1,7 @@
+.row {
+  margin: 0 auto;
+}
+
 .conteneurPerso {
   width: 90%;
   margin: 0 auto;
@@ -70,6 +74,7 @@ header h1 {
   width: 100%;
   background: rgb(107, 136, 254);
   background-size: cover;
+  overflow: hidden;
 }
 
 .aboutUs h1, .font-player {
@@ -88,8 +93,37 @@ header h1 {
 
 .space {
   height: 100px;
-  margin-left: -500px;
+  width: auto;
+  margin-left: -50%;
   position: relative;
+  animation: tzitzit 25s linear infinite;
+}
+
+.spaceship {
+  height: 100px;
+  width: auto;
+  margin-left: -50%;
+  position: relative;
+  border-style: none;
+  animation: tzitzit 25s linear infinite, rotate 25s steps(1, end) infinite;
+}
+
+@keyframes tzitzit {
+  0% {
+    left: -50%;
+  }
+  50% {
+    left: 250%;
+  }
+  100% {
+    left: -50%;
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 .mario {
@@ -98,30 +132,32 @@ header h1 {
   background: url("data/fond_mario.jpg") no-repeat center;
   background-size: cover;
 }
-a:link
-{
-  text-decoration:none;
+
+a:link {
+  text-decoration: none;
 }
 
 .icone {
-  width:140px;
-  height:auto;
-  margin-top:-3%;
+  width: 140px;
+  height: auto;
+  margin-top: -3%;
 }
 
 figure {
   text-align: center;
 }
+
 figcaption {
   font-size: 22px;
   font-family: 'Press Start 2P', cursive;
-  color:white;
-  text-shadow:2px 2px 1px black;
-  margin-top:-150%;
-  visibility:hidden;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  margin-top: -150%;
+  visibility: hidden;
 }
-.divicone :hover figcaption{
-  visibility:visible;
+
+.divicone :hover figcaption {
+  visibility: visible;
 }
 
 .container-fluid {
