@@ -148,7 +148,7 @@ header h1 {
 .mario {
   height: 243px;
   width: 100%;
-  background: url("data/fond_mario.jpg") no-repeat center;
+  background: url("data/fond_mario2.jpg") no-repeat center;
   background-size: cover;
 }
 a:link
