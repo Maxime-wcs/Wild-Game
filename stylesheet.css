@@ -187,7 +187,6 @@ hr {
 }
 
 .inner-body {
-  border:1px solid black;
   background: white;
   margin-bottom: 73px;
   /* background: url(data/back.jpg) center;*/
@@ -225,6 +224,37 @@ hr {
   background: url("data/blocs.jpg") center;
   background-size: contain;
 }
+
+/* Pampa Carousel */
+.pampa-right img, .pampa-left img {
+  width: 90px;
+  height: auto;
+
+  position: absolute;
+  top: 45%;
+}
+
+.pampa-right img {
+  transform: scaleX(-1);
+  transform: rotate(30deg);
+  right: 20%;
+}
+
+.pampa-left img {
+  transform: rotate(-30deg);
+  left: 20%;
+}
+
+.pampa-right:hover img {
+  transform: rotate(-30deg);
+  transition: transform 0.4s;
+}
+
+.pampa-left:hover img {
+  transform: rotate(30deg);
+  transition: transform 0.4s;
+}
+
 
 /*  Restauration */
 
