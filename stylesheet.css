@@ -105,10 +105,10 @@ header h1 {
 .spaceship {
   height: 100px;
   width: auto;
-  margin-left: -50%;
+  margin-left: -75%;
   position: relative;
   border-style: none;
-  animation: tzitzit 25s linear infinite, rotate 25s steps(1, end) infinite;
+  animation: tzitzitfla 25s linear infinite, rotate 25s steps(1, end) infinite;
 }
 
 @keyframes tzitzit {
@@ -120,6 +120,18 @@ header h1 {
   }
   100% {
     left: -50%;
+  }
+}
+
+@keyframes tzitzitfla {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 275%;
+  }
+  100% {
+    left: -75%;
   }
 }
 
@@ -135,16 +147,10 @@ header h1 {
   background: url("data/fond_mario.jpg") no-repeat center;
   background-size: cover;
 }
-<<<<<<< HEAD
-
-a:link {
-  text-decoration: none;
-=======
 a:link
 {
   text-decoration:none;
   user-select:none;
->>>>>>> 692b933410040e692615c930bce0b4e9da5b8cf2
 }
 
 .icone {
@@ -160,17 +166,10 @@ figure {
 figcaption {
   font-size: 22px;
   font-family: 'Press Start 2P', cursive;
-<<<<<<< HEAD
-  color: white;
-  text-shadow: 2px 2px 1px black;
-  margin-top: -150%;
-  visibility: hidden;
-=======
   color:white;
   text-shadow:2px 2px 1px black;
   margin-top:-190%;
   visibility:hidden;
->>>>>>> 692b933410040e692615c930bce0b4e9da5b8cf2
 }
 
 .divicone :hover figcaption {
