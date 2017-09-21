@@ -100,7 +100,7 @@ a:link
 .icone {
   width:140px;
   height:auto;
-  margin-top:-3px;
+  margin-top:-3%;
 }
 
 figure {
@@ -111,7 +111,7 @@ figcaption {
   font-family: 'Press Start 2P', cursive;
   color:white;
   text-shadow:2px 2px 1px black;
-  margin-top: -250px;
+  margin-top:-150%;
   visibility:hidden;
 }
 .divicone :hover figcaption{
