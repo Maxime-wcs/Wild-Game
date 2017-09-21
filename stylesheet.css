@@ -17,6 +17,9 @@ header {
   -o-background-size: cover;
   background-size: cover;
 }
+header .row {
+  height: 100%;
+}
 
 /* rotate icon */
 
@@ -25,12 +28,10 @@ header {
 }
 
 header h1 {
-  color: white;
+  color:#f4a443;
   font-size: 5vw;
-  margin-top: 10vw;
-  padding-right: 50px;
   font-family: 'Press Start 2P', cursive;
-  text-shadow: 2px 2px 10px black;
+  text-shadow: 1px 1px 5px black;
 }
 
 .logoFooter {
@@ -44,8 +45,18 @@ header h1 {
   position: absolute;
   top: 15px;
   left: 15px;
+  z-index:1;
 }
-
+.btn-burger {
+  position:absolute;
+  top:15px;
+  right:15px;
+  z-index:1;
+}
+.btn-burger img{
+  width:60px;
+  height:auto;
+}
 .headerLogo {
   /*modif*/
   width: 60px;
@@ -54,14 +65,6 @@ header h1 {
   margin-top:20px;
   margin-bottom:20px;*/
   color: black;
-}
-
-.text-logo {
-  font-size: 1em;
-  color: black;
-  padding-left: 10px;
-  padding-top: 10px;
-  margin-left: 5px;
 }
 
 .aboutUs {
@@ -101,6 +104,7 @@ header h1 {
 a:link
 {
   text-decoration:none;
+  user-select:none;
 }
 
 .icone {
@@ -117,7 +121,7 @@ figcaption {
   font-family: 'Press Start 2P', cursive;
   color:white;
   text-shadow:2px 2px 1px black;
-  margin-top:-150%;
+  margin-top:-190%;
   visibility:hidden;
 }
 .divicone :hover figcaption{
@@ -146,6 +150,7 @@ figcaption {
 }
 
 .aboutUs p {
+  font-family:'Press Start 2P', cursive;
   color: white;
   padding-top: 50px;
   font-size: 1.5em;
@@ -182,24 +187,19 @@ hr {
 }
 
 .inner-body {
-  border-radius: 15px;
-  background: rgba(239, 92, 14, 0.9);
+  border:1px solid black;
+  background: white;
   margin-bottom: 73px;
   /* background: url(data/back.jpg) center;*/
 }
 
-/*.corps-content {
-  height: 50vh;
-}*/
-
-.corps-image {
-  border-radius: 15px;
+.corps-content {
+  padding:50px 0;
 }
 
 .corps-image img {
-  border-radius: 15px;
-  border: 3px solid black;
-  text-align: center;
+  border: 1px solid black;
+
 }
 
 /* Arcade Modal */
