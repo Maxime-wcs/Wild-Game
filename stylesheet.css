@@ -336,11 +336,10 @@ section h2 {
 section h2 {
   text-align: center;
   margin: 0;
-  padding-top: 40px;
 }
 
 section label {
-  font-size: 17px;
+  font-size: px;
 }
 
 #information {
@@ -349,6 +348,9 @@ section label {
 
 address {
   margin-left: 20px;
+}
+address legend {
+  font-size: 22px;
 }
 
 /*  Footer   */
@@ -378,7 +380,7 @@ footer img {
 }
 
 * {
-  font-family: Syncopate;
+  font-family: "Press Start 2P";
 }
 
 /*  icone */
