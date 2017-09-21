@@ -1,3 +1,7 @@
+.row {
+  margin: 0 auto;
+}
+
 .conteneurPerso {
   width: 90%;
   margin: 0 auto;
@@ -78,6 +82,7 @@ header h1 {
   width: 100%;
   background:rgb(107, 136, 254);
   background-size: cover;
+  overflow: hidden;
 }
 
 .aboutUs h1, .font-player {
@@ -95,8 +100,49 @@ header h1 {
 
 .space {
   height: 100px;
-  margin-left: -500px;
+  width: auto;
+  margin-left: -50%;
   position: relative;
+  animation: tzitzit 25s linear infinite;
+}
+
+.spaceship {
+  height: 100px;
+  width: auto;
+  margin-left: -75%;
+  position: relative;
+  border-style: none;
+  animation: tzitzitfla 25s linear infinite, rotate 25s steps(1, end) infinite;
+}
+
+@keyframes tzitzit {
+  0% {
+    left: -50%;
+  }
+  50% {
+    left: 250%;
+  }
+  100% {
+    left: -50%;
+  }
+}
+
+@keyframes tzitzitfla {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 275%;
+  }
+  100% {
+    left: -75%;
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 .mario {
@@ -112,14 +158,15 @@ a:link
 }
 
 .icone {
-  width:140px;
-  height:auto;
-  margin-top:-3%;
+  width: 140px;
+  height: auto;
+  margin-top: -3%;
 }
 
 figure {
   text-align: center;
 }
+
 figcaption {
   font-size: 22px;
   font-family: 'Press Start 2P', cursive;
@@ -128,8 +175,9 @@ figcaption {
   margin-top:-190%;
   visibility:hidden;
 }
-.divicone :hover figcaption{
-  visibility:visible;
+
+.divicone :hover figcaption {
+  visibility: visible;
 }
 
 .container-fluid {
@@ -190,7 +238,6 @@ hr {
 }
 
 .inner-body {
-  border:1px solid black;
   background: white;
   margin-bottom: 73px;
   /* background: url(data/back.jpg) center;*/
@@ -228,6 +275,37 @@ hr {
   background: url("data/blocs.jpg") center;
   background-size: contain;
 }
+
+/* Pampa Carousel */
+.pampa-right img, .pampa-left img {
+  width: 90px;
+  height: auto;
+
+  position: absolute;
+  top: 45%;
+}
+
+.pampa-right img {
+  transform: scaleX(-1);
+  transform: rotate(30deg);
+  right: 20%;
+}
+
+.pampa-left img {
+  transform: rotate(-30deg);
+  left: 20%;
+}
+
+.pampa-right:hover img {
+  transform: rotate(-30deg);
+  transition: transform 0.4s;
+}
+
+.pampa-left:hover img {
+  transform: rotate(30deg);
+  transition: transform 0.4s;
+}
+
 
 /*  Restauration */
 
