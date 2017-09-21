@@ -148,7 +148,7 @@ header h1 {
 .mario {
   height: 243px;
   width: 100%;
-  background: url("data/fond_mario.jpg") no-repeat center;
+  background: url("data/fond_mario2.jpg") no-repeat center;
   background-size: cover;
 }
 a:link
@@ -286,8 +286,7 @@ hr {
 }
 
 .pampa-right img {
-  transform: scaleX(-1);
-  transform: rotate(30deg);
+  transform: scaleX(-1) rotate(30deg);
   right: 20%;
 }
 
@@ -297,7 +296,7 @@ hr {
 }
 
 .pampa-right:hover img {
-  transform: rotate(-30deg);
+  transform: scaleX(-1) rotate(-30deg);
   transition: transform 0.4s;
 }
 
