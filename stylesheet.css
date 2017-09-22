@@ -103,6 +103,7 @@ header h1 {
   margin-left: -50%;
   position: relative;
   animation: tzitzit 25s linear infinite;
+  user-select: none;
 }
 
 .spaceship {
@@ -112,6 +113,7 @@ header h1 {
   position: relative;
   border-style: none;
   animation: tzitzitfla 25s linear infinite, rotate 25s steps(1, end) infinite;
+  user-select: none;
 }
 
 @keyframes tzitzit {
@@ -145,7 +147,7 @@ header h1 {
 }
 
 .mario {
-  height: 243px;
+  height: 225px;
   width: 100%;
   background: url("data/fond_mario2.jpg") no-repeat center;
   background-size:cover;
@@ -205,6 +207,27 @@ figcaption {
   color: white;
   font-size: 1.5em;
   text-align: center;
+}
+
+.plant {
+  margin-bottom: -10%;
+  height: 8vw;;
+  width: auto;
+  margin-left: 84%;
+  animation: plantUp 10s linear infinite;
+  position: relative;
+}
+
+@keyframes plantUp {
+  0% {
+    bottom: -10%;
+  }
+  50% {
+    bottom: 40%;
+  }
+  100% {
+    bottom: -10%;
+  }
 }
 
 @keyframes test {
@@ -361,15 +384,6 @@ footer {
   background-size: 40%;
 }
 
-footer a, footer a:focus {
-  color: white;
-}
-
-footer a:hover {
-  text-decoration: none;
-  color: orange;
-}
-
 footer img {
   height: 80px;
   width: 80px;
@@ -384,7 +398,6 @@ footer img {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 15px;
@@ -443,5 +456,10 @@ footer img {
   #modalArcade .modal-dialog {
     width: 97%;
     height: 0.9vh;
+  }
+}
+@media screen and (max-width: 1867px) {
+  .plant {
+    display: none;
   }
 }
