@@ -87,8 +87,7 @@ header h1 {
 .headerLogo {
   /*modif*/
   width: 60px;
-  background: white cover;
-  border: 1px solid transparent;
+  background: white;
   border-radius: 50%;
 }
 
@@ -492,6 +491,9 @@ footer img {
 @media screen and (max-width: 803px) {
   .boutondemerde {
     height: 75px;
+    margin-top:10px;
+    margin-right:10px;
     width: auto;
   }
+
 }
