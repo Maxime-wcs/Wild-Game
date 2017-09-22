@@ -14,13 +14,14 @@
 header {
   position: relative;
   width: 100%;
-  height:370px;
+  height: 370px;
   background: url("data/mariosky.png") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 header .row {
   height: 100%;
 }
@@ -32,8 +33,8 @@ header .row {
 }
 
 header h1 {
-  color:#f4a443;
-  font-size:70px;
+  color: #f4a443;
+  font-size: 70px;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 1px 1px 5px black;
 }
@@ -41,52 +42,53 @@ header h1 {
 .logoFooter {
   width: 50px;
   height: 50px;
-  background:white;
-  border-radius:50%;
-
+  background: white;
+  border-radius: 50%;
 }
 
 /* fabien */
 
 .logotitle {
   position: absolute;
-  top:10px;
-  left:10px;
-  z-index:1;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
 }
+
 .btn-burger {
-  position:absolute;
-  top:10px;
-  right:10px;
-  z-index:1;
-  visibility:hidden;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  visibility: hidden;
 }
-.btn-burger img{
-  width:60px;
-  height:auto;
+
+.btn-burger img {
+  width: 60px;
+  height: auto;
 }
+
 .headerLogo {
   /*modif*/
   width: 60px;
-  background:white cover;
-  border:1px solid white;
-  border-radius:50%;
+  background: white cover;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .aboutUs {
   color: #B41A23;
   font-size: 1em;
   width: 100%;
-  height:auto;
-  background:rgb(107, 136, 254);
+  height: auto;
+  background: rgb(107, 136, 254);
   background-size: cover;
   overflow: hidden;
-
 }
 
 .aboutUs h1, .font-player {
   font-size: 5vw;
-  margin-bottom:80px;
+  margin-bottom: 80px;
   text-align: center;
   -moz-user-select: none;
   user-select: none;
@@ -148,14 +150,13 @@ header h1 {
 
 .mario {
   height: 225px;
-  width: 100%;
-  background: url("data/fond_mario2.jpg") no-repeat center;
-  background-size:cover;
+  background: url("data/fond_mario2.jpg") no-repeat center top;
+  background-size: cover;
 }
-a:link
-{
-  text-decoration:none;
-  user-select:none;
+
+a:link {
+  text-decoration: none;
+  user-select: none;
   outline: none;
 }
 
@@ -172,10 +173,10 @@ figure {
 figcaption {
   font-size: 22px;
   font-family: 'Press Start 2P', cursive;
-  color:white;
-  text-shadow:2px 2px 1px black;
-  margin-top:-200%;
-  visibility:hidden;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  margin-top: -200%;
+  visibility: hidden;
 }
 
 .divicone :hover figcaption {
@@ -204,7 +205,7 @@ figcaption {
 }
 
 .aboutUs p {
-  font-family:'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
   color: white;
   font-size: 1.5em;
   text-align: center;
@@ -212,7 +213,8 @@ figcaption {
 
 .plant {
   margin-bottom: -10%;
-  height: 8vw;;
+  height: 8vw;
+  ;
   width: auto;
   margin-left: 84%;
   animation: plantUp 10s linear infinite;
@@ -266,12 +268,11 @@ hr {
 }
 
 .corps-content {
-  padding:50px 0;
+  padding: 50px 0;
 }
 
 .corps-image img {
   border: 1px solid black;
-
 }
 
 /* Arcade Modal */
@@ -299,6 +300,7 @@ hr {
 }
 
 /* Pampa Carousel */
+
 .pampa-right img, .pampa-left img {
   width: 90px;
   height: auto;
@@ -325,7 +327,6 @@ hr {
   transform: rotate(30deg);
   transition: transform 0.4s;
 }
-
 
 /*  Restauration */
 
@@ -369,6 +370,7 @@ section label {
 address {
   margin-left: 20px;
 }
+
 address legend {
   font-size: 22px;
 }
@@ -459,6 +461,7 @@ footer img {
     height: 0.9vh;
   }
 }
+
 @media screen and (max-width: 1867px) {
   .plant {
     display: none;
