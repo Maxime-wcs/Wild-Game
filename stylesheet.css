@@ -50,14 +50,14 @@ header h1 {
 
 .logotitle {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top:10px;
+  left:10px;
   z-index:1;
 }
 .btn-burger {
   position:absolute;
-  top:15px;
-  right:15px;
+  top:10px;
+  right:10px;
   z-index:1;
   visibility:hidden;
 }
@@ -68,9 +68,6 @@ header h1 {
 .headerLogo {
   /*modif*/
   width: 60px;
-  margin-left:20px;
-  margin-top:20px;
-  margin-bottom:20px;*/
   background:white cover;
   border:1px solid white;
   border-radius:50%;
@@ -84,6 +81,7 @@ header h1 {
   background:rgb(107, 136, 254);
   background-size: cover;
   overflow: hidden;
+
 }
 
 .aboutUs h1, .font-player {
@@ -150,7 +148,7 @@ header h1 {
   height: 243px;
   width: 100%;
   background: url("data/fond_mario2.jpg") no-repeat center;
-  background-size: cover;
+  background-size:cover;
 }
 a:link
 {
@@ -159,9 +157,9 @@ a:link
 }
 
 .icone {
-  width: 140px;
+  width: 150px;
   height: auto;
-  margin-top: -3%;
+  margin-top: -20%;
 }
 
 figure {
@@ -173,7 +171,7 @@ figcaption {
   font-family: 'Press Start 2P', cursive;
   color:white;
   text-shadow:2px 2px 1px black;
-  margin-top:-190%;
+  margin-top:-200%;
   visibility:hidden;
 }
 
@@ -205,7 +203,6 @@ figcaption {
 .aboutUs p {
   font-family:'Press Start 2P', cursive;
   color: white;
-
   font-size: 1.5em;
   text-align: center;
 }
@@ -281,7 +278,6 @@ hr {
 .pampa-right img, .pampa-left img {
   width: 90px;
   height: auto;
-
   position: absolute;
   top: 45%;
 }
