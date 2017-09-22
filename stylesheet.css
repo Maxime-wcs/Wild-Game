@@ -350,6 +350,7 @@ section h2 {
 
 #Lsnack button {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 /*  Informations complémentaires */
@@ -392,6 +393,7 @@ footer {
 footer img {
   height: 80px;
   width: 80px;
+  margin-bottom: 15px;
 }
 
 * {
