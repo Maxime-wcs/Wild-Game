@@ -81,6 +81,12 @@ header h1 {
 .headerLogo {
   /*modif*/
   width: 60px;
+<<<<<<< HEAD
+=======
+  background: white cover;
+  border: 1px solid transparent;
+  border-radius: 50%;
+>>>>>>> 96f4c885616c60348a0c22be24cf35a9c1a94562
 }
 
 .aboutUs {
@@ -356,6 +362,7 @@ section h2 {
 
 #Lsnack button {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 /*  Informations complémentaires */
@@ -365,12 +372,11 @@ section h2 {
   margin: 0;
 }
 
-section label {
-  font-size: px;
-}
 
 #information {
   font-size: 19px;
+  background: url("./data/lianadelrey.png");
+  background-size: cover;
 }
 
 address {
@@ -396,6 +402,7 @@ footer {
 footer img {
   height: 80px;
   width: 80px;
+  margin-bottom: 15px;
 }
 
 * {
