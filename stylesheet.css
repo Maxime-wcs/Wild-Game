@@ -72,7 +72,7 @@ header h1 {
   /*modif*/
   width: 60px;
   background: white cover;
-  border: 1px solid white;
+  border: 1px solid transparent;
   border-radius: 50%;
 }
 
