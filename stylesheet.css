@@ -309,7 +309,7 @@ hr {
 }
 
 .pampa-right img {
-  transform: scaleX(-1) rotate(30deg);
+  transform: scaleX(-1) rotate(-30deg);
   right: 20%;
 }
 
@@ -319,7 +319,7 @@ hr {
 }
 
 .pampa-right:hover img {
-  transform: scaleX(-1) rotate(-30deg);
+  transform: scaleX(-1) rotate(30deg);
   transition: transform 0.4s;
 }
 
