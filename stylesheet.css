@@ -158,6 +158,7 @@ a:link
 {
   text-decoration:none;
   user-select:none;
+  outline: none;
 }
 
 .icone {
