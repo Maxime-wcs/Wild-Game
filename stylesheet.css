@@ -365,6 +365,8 @@ section label {
 
 #information {
   font-size: 19px;
+  background: url("./data/lianadelrey.png");
+  background-size: cover;
 }
 
 address {
