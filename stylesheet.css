@@ -149,7 +149,7 @@ header h1 {
 }
 
 .mario {
-  height: 243px;
+  height: 225px;
   width: 100%;
   background: url("data/fond_mario2.jpg") no-repeat center;
   background-size: cover;
@@ -210,6 +210,27 @@ figcaption {
 
   font-size: 1.5em;
   text-align: center;
+}
+
+.plant {
+  margin-bottom: -10%;
+  height: 8vw;;
+  width: auto;
+  margin-left: 84%;
+  animation: plantUp 10s linear infinite;
+  position: relative;
+}
+
+@keyframes plantUp {
+  0% {
+    bottom: -10%;
+  }
+  50% {
+    bottom: 40%;
+  }
+  100% {
+    bottom: -10%;
+  }
 }
 
 @keyframes test {
@@ -449,5 +470,10 @@ footer img {
   #modalArcade .modal-dialog {
     width: 97%;
     height: 0.9vh;
+  }
+}
+@media screen and (max-width: 1867px) {
+  .plant {
+    display: none;
   }
 }
