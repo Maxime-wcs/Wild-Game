@@ -378,7 +378,7 @@ section h2 {
 
 #information {
   font-size: 19px;
-  background: url("./data/lianadelrey.png");
+  background: url("./data/lianadelrey.png") center;
   background-size: cover;
 }
 
