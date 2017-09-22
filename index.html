@@ -30,13 +30,13 @@
       </div>
 
       <div id="navbar" class="btn-group-vertical steackhache">
-            <button class="btn-group col-xs-12">Arcades</button>
-            <button class="btn-group col-xs-12">Baby Foot</button>
-            <button class="btn-group col-xs-12">Simulateurs</button>
-            <button class="btn-group col-xs-12">Air Hockey</button>
-            <button class="btn-group col-xs-12">Ping Pong</button>
-            <button class="btn-group col-xs-12">Billards</button>
-            <button class="btn-group col-xs-12">Snack</button>
+            <button data-link="#Larcade" class="btn-group col-xs-12">Arcades</button>
+            <button data-link="#Lbabyfoot" class="btn-group col-xs-12">Baby Foot</button>
+            <button data-link="#Lsimulateur" class="btn-group col-xs-12">Simulateurs</button>
+            <button data-link="#Lairhockey" class="btn-group col-xs-12">Air Hockey</button>
+            <button data-link="#Lpingpong" class="btn-group col-xs-12">Ping Pong</button>
+            <button data-link="#Lbillard" class="btn-group col-xs-12">Billards</button>
+            <button data-link="#Lsnack" class="btn-group col-xs-12">Snack</button>
       </div>
 
 
@@ -891,8 +891,26 @@
           scrollTop: $(".blocs").offset().top - 300
 
         }, 'slow');
+      });
+
+      $('#navbar button').click(function(e) {
+        e.preventDefault();
+        var refId = $(this).attr('data-link');
+        // collapse all
+        $(".collapse").collapse('hide'); // hide all collapse
+        $(".inner-body").attr('border', '0px'); // remove border
+        $(refId).collapse('show'); // open selected collapse
+        $(".inner-body").attr('border', '1px solid black'); // add border
+
+        // scroll to section
+        $('html, body').animate({
+
+          scrollTop: $(".blocs").offset().top - 140
+
+        }, 'slow');
 
       });
+
     });
   </script>
 
