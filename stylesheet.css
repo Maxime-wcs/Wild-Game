@@ -388,15 +388,6 @@ footer {
   background-size: 40%;
 }
 
-footer a, footer a:focus {
-  color: white;
-}
-
-footer a:hover {
-  text-decoration: none;
-  color: orange;
-}
-
 footer img {
   height: 80px;
   width: 80px;
