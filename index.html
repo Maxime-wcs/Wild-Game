@@ -17,23 +17,41 @@
 <body>
 
   <!-- logo site -->
-  <div class="logotitle">
-    <figure>
-      <img class="pull-left headerLogo" src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png" alt="logo wild games">
-      <a class="navbar-brand" href="#">
-        <figcaption class="text-logo">Wild Games</figcaption>
-      </a>
-    </figure>
-  </div>
-
-  <div class="btn-burger pull-right">
-    <img src="data/btn.png" alt="menu_burger">
-  </div>
 
 
-  <div class="container-fluid conteneurGlobal">
+
+
+
+
+
+<div class="container-fluid conteneurGlobal">
     <!-- Vue de la salle avec logo et nom de la salle -->
     <header id="L">
+
+      <div class="logotitle">
+        <figure>
+          <img class="pull-left headerLogo" src="https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png" alt="logo wild games">
+          <a class="navbar-brand" href="#">
+            <figcaption class="text-logo">Wild Games</figcaption>
+          </a>
+        </figure>
+      </div>
+
+      <div id="navbar" class="btn-group-vertical collapse">
+            <button class="btn-group col-xs-12">Arcades</button>
+            <button class="btn-group col-xs-12">Baby Foot</button>
+            <button class="btn-group col-xs-12">Simulateurs</button>
+            <button class="btn-group col-xs-12">Air Hockey</button>
+            <button class="btn-group col-xs-12">Ping Pong</button>
+            <button class="btn-group col-xs-12">Billards</button>
+            <button class="btn-group col-xs-12">Snack</button>
+      </div>
+
+
+      <div class="btn-burger pull-right">
+        <img class="boutondemerde" src="data/btn.png" alt="menu_burger">
+      </div>
+
 
       <div class="row">
         <div class="col-md-6 col-md-offset-2">
@@ -132,85 +150,266 @@
 
 
 
-
     <div class=blocs>
-      <!-- Arnaud -->
-      <div class="conteneurPerso">
-        <div class="inner-body">
-          <div id="Larcade" class="collapse">
-            <!-- row Arcade -->
-            <div class="row corps-content">
-              <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
-                <img class="img-responsive" src="data/arcade.jpg" alt="" data-toggle="modal" data-target="#modalArcade">
-              </div>
-              <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
-                <h1>Arcade</h1>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche
-                  pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
+        <!-- Arnaud -->
+        <div class="conteneurPerso">
+            <div class="inner-body ">
 
-          <div id="Lbabyfoot" class="collapse">
-            <!-- row baby foot -->
-            <div class="row corps-content">
-              <div class="corps-image col-xs-12  col-md-4 col-md-offset-1">
-                <img class="img-responsive" src="data/baby_foot_propre.jpeg" alt="" data-toggle="modal" data-target="#modalBabyFoot">
-              </div>
-              <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
-                <h1>Baby-Foot</h1>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche
-                  pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
+                <div id="Larcade" class="collapse">
+                    <!-- row Arcade -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/arcade.jpg" alt="" data-toggle="modal"
+                                 data-target="#modalArcade">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Arcade</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
 
-          <div id="Lsimulateur" class="collapse">
-            <!-- row Simulateurs -->
-            <div class="row corps-content">
-              <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
-                <img class="img-responsive" src="data/simulator.jpg" alt="" data-toggle="modal" data-target="#modalSimulateur">
-              </div>
-              <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
-                <h1>Simulateurs</h1>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche
-                  pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
+                <div id="Lbabyfoot" class="collapse">
+                    <!-- row baby foot -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12  col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/baby_foot_propre.jpeg" alt="" data-toggle="modal"
+                                 data-target="#modalBabyFoot">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Baby-Foot</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
 
-          <div id="Lairhockey" class="collapse">
-            <!-- row Air Hockey -->
-            <div class="row corps-content" id="Lairhockey">
-              <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
-                <img class="img-responsive" src="data/airhockey_propre.jpg" alt="" data-toggle="modal" data-target="#modalAirHockey">
-              </div>
-              <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
-                <h1>Air Hockey</h1>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche
-                  pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
+                <div id="Lsimulateur" class="collapse">
+                    <!-- row Simulateurs -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/simulator.jpg" alt="" data-toggle="modal"
+                                 data-target="#modalSimulateur">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Simulateurs</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
 
-          <div id="Lpingpong" class="collapse">
-            <!-- row Ping Pong -->
-            <div class="row corps-content">
-              <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
-                <img class="img-responsive" src="data/pingpong_propre.jpg" alt="" data-toggle="modal" data-target="#modalPingPong">
-              </div>
-              <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
-                <h1>Ping Pong</h1>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche
-                  pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
-              </div>
-            </div>
-            <!-- end row -->
-          </div>
+                <div id="Lairhockey" class="collapse">
+                    <!-- row Air Hockey -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/airhockey_propre.jpg" alt="" data-toggle="modal"
+                                 data-target="#modalAirHockey">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Air Hockey</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+
+                <div id="Lpingpong" class="collapse">
+                    <!-- row Ping Pong -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/pingpong_propre.jpg" alt="" data-toggle="modal"
+                                 data-target="#modalPingPong">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Ping Pong</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+
+                <div id="Lbillard" class="collapse">
+                    <!-- row Billard -->
+                    <div class="row corps-content">
+                        <div class="corps-image col-xs-12 col-md-4 col-md-offset-1">
+                            <img class="img-responsive" src="data/billard_propre.jpg" alt="" data-toggle="modal"
+                                 data-target="#modalBillard">
+                        </div>
+                        <div class="corps-texte text-center col-xs-12 col-md-5 col-md-offset-1">
+                            <h1>Billard</h1>
+                            <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en
+                                page avant nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont
+                                fait du Lorem Ipsum leur faux texte par défaut, et une recherche
+                                pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore.</p>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!--Restauration-->
+                <section class="collapse" id="Lsnack">
+                    <h2>Restauration</h2>
+
+                    <!-- Carrousel  -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="data/snack1.jpg" alt="photo 1" style="width:100%;">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="data/snack2.jpg" alt="photo 2" style="width:100%;">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="data/snack3.jpg" alt="photo 3" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="data/snack4.jpg" alt="photo 4" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="data/snack5.jpg" alt="photo 5" style="width:100%;">
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="pampa-left"><img src="data/pampa.png"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="pampa-right"><img src="data/pampa.png"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- end carrousel  -->
+
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen
+                                    book. It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and
+                                    more recently with desktop publishing software like Aldus PageMaker including
+                                    versions of Lorem Ipsum.
+                                </p>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalSnack" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Notre carte</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6 col-xs-12">
+                                                    <h4>Les repas</h4>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <ul class="list-unstyled">
+                                                                <li><strong>Sandwich</strong></li>
+                                                                <li>Le Parisien</li>
+                                                                <li>Le Savoyard</li>
+                                                                <li>Le Dieppois</li>
+                                                                <li>Le tomate mozzarella</li>
+                                                                <li><br></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul class="list-unstyled">
+                                                                <li><strong>Hamburger</strong></li>
+                                                                <li>Big Mac</li>
+                                                                <li>Royal deluxe</li>
+                                                                <li>Royal bacon</li>
+                                                                <li>Chicken bacon</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-xs-12">
+                                                    <h4>Les boissons</h4>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <ul class="list-unstyled">
+                                                                <li><strong>Cocktail (sans alcool)</strong></li>
+                                                                <li>Afterglow</li>
+                                                                <li>Fruits cup</li>
+                                                                <li>Florida</li>
+                                                                <li>Pina colata</li>
+                                                                <li><br></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul class="list-unstyled">
+                                                                <li><strong>Soda</strong></li>
+                                                                <li>Ice-tea</li>
+                                                                <li>Orangina</li>
+                                                                <li>Coca-cola</li>
+                                                                <li>Sprite</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- end Modal -->
+
+                            <fieldset>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <button id="boutonSnack" name="boutonSnack" class="btn btn-warning center-block"
+                                                data-toggle="modal" data-target="#modalSnack">Ouvrir la carte
+                                        </button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </section>
+
+
+
 
           <div id="Lbillard" class="collapse">
             <!-- row Billard -->
@@ -381,19 +580,22 @@
 
     <!--  Information  -->
 
+
     <section id="information">
       <h2>Informations</h2>
       <div class="row">
         <div class="col-md-5 col-md-offset-1 ">
 
           <address class="thumbnail">
+
                         <legend>Contactez nous à cette adresse :</legend>
                         <strong>Wild Games</strong><br>
                         1 avenue du Champ de Mars<br>
                         45100 Orléans<br><br>
                         <p><strong>Téléphone : </strong>0123456789</p>
-                        <p><strong>Horaires : </strong>Mardi au dimanche de 12h à 22h</p>
+                        <p><strong>Horaires : </strong>Mardi au dimanche <br> de 12h à 22h</p>
                     </address>
+
 
 
         </div>
@@ -424,7 +626,7 @@
 
 
               <div class="form-group">
-                <label class="col-md-3 control-label" for="textarea">Question :</label>
+                <label class="col-md-3 control-label" for="textarea">Texte :</label>
                 <div class="col-md-8">
                   <textarea class="form-control" id="textarea" name="textarea" required=""></textarea>
                 </div>
@@ -582,6 +784,17 @@
             </div>
             <!-- end Carousel Games -->
 
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#gamesCarousel" data-slide="prev">
+                                <span class="pampa-left"><img src="data/pampa.png"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#gamesCarousel" data-slide="next">
+                                <span class="pampa-right"><img src="data/pampa.png"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- end Carousel Games -->
 
           </div>
         </div>
