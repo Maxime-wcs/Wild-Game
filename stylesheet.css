@@ -72,7 +72,6 @@ header h1 {
   width:100%;
   height:auto;
   z-index: 2;
-  visibility:hidden;
 }
 .btn-group {
   background:url("data/lianagauche.png")no-repeat left,rgb(107, 136, 254);
@@ -81,7 +80,7 @@ header h1 {
   text-shadow:2px 2px 0px black;
 }
 
-#navbar {
+.steackhache {
   visibility: hidden;
 }
 
@@ -462,10 +461,6 @@ footer img {
     height: 50px;
   }
 }
-
-.burgerMenu {
-  visibility:hidden;
-}
 /* Responsive modal */
 
 @media screen and (min-width: 1200px) {
@@ -488,13 +483,9 @@ footer img {
   }
   .btn-burger {
     visibility:visible;
-
   }
   .divicone {
     visibility:hidden;
-  }
-  .btn-group-vertical {
-    visibility:visible;
   }
 }
 

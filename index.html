@@ -16,14 +16,6 @@
 
 <body>
 
-  <!-- logo site -->
-
-
-
-
-
-
-
 <div class="container-fluid conteneurGlobal">
     <!-- Vue de la salle avec logo et nom de la salle -->
     <header id="L">
@@ -37,7 +29,7 @@
         </figure>
       </div>
 
-      <div id="navbar" class="btn-group-vertical collapse">
+      <div id="navbar" class="btn-group-vertical steackhache">
             <button class="btn-group col-xs-12">Arcades</button>
             <button class="btn-group col-xs-12">Baby Foot</button>
             <button class="btn-group col-xs-12">Simulateurs</button>
@@ -853,7 +845,10 @@
       }
     };
 
-
+    $(".boutondemerde").on("click", function()
+    {
+      $(".btn-group-vertical").toggleClass("steackhache");
+    });
 
     $(document).ready(function() {
 
