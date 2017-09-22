@@ -56,8 +56,8 @@ header h1 {
 }
 .btn-burger {
   position:absolute;
-  top:10px;
-  right:10px;
+  top:15px;
+  right:15px;
   z-index:1;
   visibility:hidden;
 }
@@ -65,6 +65,22 @@ header h1 {
   width:60px;
   height:auto;
 }
+
+.btn-group-vertical {
+  position:absolute;
+  top:80px;
+  margin:0 auto;
+  width:100%;
+  height:auto;
+  z-index:2;
+}
+.btn-group {
+  background:rgb(107, 136, 254);
+  color:white;
+  font-size:1.5em;
+  text-shadow:2px 2px 0px black;
+}
+
 .headerLogo {
   /*modif*/
   width: 60px;
@@ -161,7 +177,7 @@ a:link
 .icone {
   width: 150px;
   height: auto;
-  margin-top: -20%;
+  margin-top:-20%;
 }
 
 figure {
@@ -458,8 +474,15 @@ footer img {
     height: 0.9vh;
   }
 }
+
 @media screen and (max-width: 1867px) {
   .plant {
     display: none;
+  }
+  .btn-burger {
+    visibility:visible;
+  }
+  .divicone {
+    visibility:hidden;
   }
 }
